@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  LoRaWan_send("0123456", 1, false);
+  LoRaWan_send("0123456", 1, true);
   LoRaWan_get_rx();
 
   byte rx_len;
